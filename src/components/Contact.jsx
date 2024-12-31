@@ -51,7 +51,7 @@ export default function Contact() {
     );
 
     // Updated WhatsApp number
-    const whatsappNumber = '2349095471759';
+    const whatsappNumber = '2349049859578';
     
     // Open WhatsApp with pre-filled message
     window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank');

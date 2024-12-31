@@ -66,22 +66,22 @@ export default function About() {
             className="w-48 h-48 object-cover object-[center_25%] scale-125 rounded-full border-4 border-[#0F4229] shadow-lg mb-8"
           />
           <h3 className="text-2xl font-serif text-[#0F4229] mb-1">Mr. Okani Joshua</h3>
-          <p className="text-gray-600 font-medium">CEO & Digital Marketing Strategist</p>
+          <p className="text-gray-600 font-medium">CEO & Graphics Design Expert</p>
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           {[
             {
               title: "Real Estate Focused",
-              description: "3+ years specialized experience in crafting high-converting websites and marketing strategies exclusively for real estate businesses."
+              description: "3+ years specialized experience in creating stunning visual designs and marketing materials exclusively for real estate businesses."
             },
             {
               title: "Proven Results",
-              description: "Helped numerous real estate agencies increase their online leads by 200% through strategic digital marketing and brand positioning."
+              description: "Helped numerous real estate agencies enhance their brand presence through eye-catching designs and professional marketing materials."
             },
             {
               title: "Value-Driven Approach",
-              description: "Combining Christian principles with marketing expertise to deliver honest, effective, and results-focused digital solutions."
+              description: "Combining Christian principles with creative expertise to deliver visually appealing and effective design solutions."
             }
           ].map((item, index) => (
             <motion.div
